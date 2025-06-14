@@ -1,0 +1,2 @@
+# TimesNet-model
+对比TimesNet模型和其他机器学习模型在长时间序列建模效果
