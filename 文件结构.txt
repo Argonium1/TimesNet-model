@@ -1,0 +1,64 @@
+\TimesNet
+    \data_provider
+        data_factory.py
+        data_loader.py
+        m4.py
+        uea.py
+        
+    \dataset
+        \electricity
+            electricity.csv
+        \ETT-small
+            ETTh1.csv
+            ETTh2.csv
+            ETTm1.csv
+            ETTm2.csv
+        \traffic
+            traffic.csv
+        \weather
+            Vienna_Weather.csv
+
+    \exp
+        exp_anomaly_detection.py
+        exp_basic.py
+        exp_classification.py
+        exp_imputation.py
+        exp_long_term_forecasting.py
+        exp_short_term_forecasting.py
+
+    \layers
+        Transformer_EncDec.py
+        Embed.py
+        Conv_Blocks.py
+
+    \models
+        Transformer.py
+        TimesNet.py
+
+    \scripts
+        \TimesNet
+            TimesNet_ECL.sh
+            TimesNet_ETTh1.sh
+            TimesNet_ETTh2.sh
+            TimesNet_ETTm1.sh
+            TimesNet_ETTm2.sh
+            TimesNet_traffic.sh
+            TimesNet_weather.sh
+        \Transformer
+            Transformer_ecl.sh
+            Transformer_ETTh1.sh
+            Transformer_ETTh2.sh
+            Transformer_ETTm1.sh
+            Transformer_ETTm2.sh
+            Transformer_traffic.sh
+            Transformer_weather.sh
+
+    \utils
+        tools.py
+        dtw.py
+        dtw_metric.py
+        metrics.py
+        augmentation.py
+
+    requirements.txt
+    run.py
